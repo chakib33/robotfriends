@@ -1,0 +1,12 @@
+.mainSearchBox{
+    padding: .5rem;
+    
+
+}
+
+.searchbox {
+    padding: 1rem;
+    border-style: solid;
+    border-color: green;
+    background-color: lightblue;
+}

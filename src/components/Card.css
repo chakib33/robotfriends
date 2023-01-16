@@ -1,0 +1,26 @@
+.mainCard {
+    background-color: #9eebcf;
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .5rem;
+    border-width: .25rem;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); 
+}
+
+/*.mainCard:hover {
+ transform: scale(1.03);
+}*/
+
+.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+.grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
+.grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
+.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
+.grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
+.grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
+.shadow-hover::after { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); opacity: 0; transition: opacity .25s ease-in-out; }
+.shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
+/* Combine with classes in skins and skins-pseudo for 
+ * thousands of different transition possibilities. */
+.bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
+

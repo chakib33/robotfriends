@@ -1,0 +1,7 @@
+.mainScroll{
+    overflow-y: scroll;
+    border: 1px;
+    border: solid;
+    border-radius: black;
+    height: 800px;
+}
